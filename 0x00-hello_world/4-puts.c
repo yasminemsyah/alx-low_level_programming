@@ -1,7 +1,7 @@
 #include <stdio.h>
-/*
-   *My First C Code
-   *main : prints a string using puts
+/**
+   *main - prints a string using puts
+   *Description: My First C betty style coding
    *Return: value should be always Inside ()
 */
 int main(void)
