@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-  *main - Print Sizes Of Various Types Of Data 
-  *Description: My C Learning Parkour Using Betty Coding Style
-  *Return:Should be Always Inside ()
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
