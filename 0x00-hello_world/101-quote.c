@@ -1,11 +1,13 @@
 #include <stdio.h>
 /**
-  *main - Print a String Using Putchar
-  *Description:My C Learning parkour using betty Coding Style
-  *return: Should be always inside ()
-*/
+ * main - Print String using fprintf
+ *
+ * Return: Always 1 (Success)
+ */
 int main(void)
 {
-	putchar("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	char str[80] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+
+	fprintf(stderr, "%s\n",  str);
 	return (1);
 }
